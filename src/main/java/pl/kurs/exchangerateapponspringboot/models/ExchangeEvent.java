@@ -38,6 +38,32 @@ public class ExchangeEvent implements Serializable {
         return id;
     }
 
+    public Timestamp getDate() {
+        return date;
+    }
+
+    public String getCurrencyFrom() {
+        return currencyFrom;
+    }
+
+    public BigDecimal getAmountFrom() {
+        return amountFrom;
+    }
+
+    public String getCurrencyTo() {
+        return currencyTo;
+    }
+
+    public BigDecimal getAmountTo() {
+        return amountTo;
+    }
+
+    public BigDecimal getExchangeRate() {
+        return exchangeRate;
+    }
+
+
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
