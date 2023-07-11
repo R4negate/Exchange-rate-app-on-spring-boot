@@ -11,5 +11,5 @@ public class ExchangeRateAppOnSpringbootApplication {
     }
 
 
-    //todo skad springboot bierze wersje do h2
+
 }
